@@ -22,8 +22,8 @@ export default function EditClinicianSidebar({
         <div className="flex items-center justify-between p-4 border-b">
           <h2 className="text-lg font-medium">Edit clinician details</h2>
           <button
-            onClick={onClose}
             className="p-2 hover:bg-gray-100 rounded-full"
+            onClick={onClose}
           >
             <X className="h-5 w-5 text-gray-500" />
           </button>
@@ -47,10 +47,10 @@ export default function EditClinicianSidebar({
                 Taxonomy code
               </label>
               <input
-                type="text"
-                value="101YM0800X"
                 readOnly
                 className="w-full border-gray-300 rounded-md shadow-sm bg-gray-50"
+                type="text"
+                value="101YM0800X"
               />
             </div>
 
@@ -59,9 +59,9 @@ export default function EditClinicianSidebar({
                 NPI number
               </label>
               <input
-                type="text"
-                placeholder="Enter NPI number"
                 className="w-full border-gray-300 rounded-md shadow-sm"
+                placeholder="Enter NPI number"
+                type="text"
               />
             </div>
           </div>
@@ -70,8 +70,8 @@ export default function EditClinicianSidebar({
         {/* Sidebar Footer */}
         <div className="border-t p-4">
           <button
-            onClick={onClose}
             className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700"
+            onClick={onClose}
           >
             Save
           </button>

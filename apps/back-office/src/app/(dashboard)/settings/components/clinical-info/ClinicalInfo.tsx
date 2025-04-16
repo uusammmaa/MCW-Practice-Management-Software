@@ -15,8 +15,8 @@ export default function ClinicalInfo() {
       {/* Video Link - Centered */}
       <div className="flex justify-center mb-8">
         <Link
-          href="#"
           className="flex items-center text-blue-600 text-sm font-medium hover:text-blue-700"
+          href="#"
         >
           <PlayCircle className="w-4 h-4 mr-2" />
           Watch a quick video about Clinical info
@@ -28,7 +28,7 @@ export default function ClinicalInfo() {
         <Info className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" />
         <p className="text-sm text-gray-700">
           If you or someone in your practice is a pre-licensed clinician,{" "}
-          <Link href="#" className="text-blue-600 hover:underline">
+          <Link className="text-blue-600 hover:underline" href="#">
             add a supervisor as a team member
           </Link>
           .
@@ -44,8 +44,8 @@ export default function ClinicalInfo() {
               Clinician details
             </h2>
             <button
-              onClick={() => setIsEditSidebarOpen(true)}
               className="text-blue-600 text-sm font-medium hover:text-blue-700"
+              onClick={() => setIsEditSidebarOpen(true)}
             >
               Edit
             </button>
@@ -71,9 +71,9 @@ export default function ClinicalInfo() {
                 NPI number
               </label>
               <input
-                type="text"
-                placeholder="Enter NPI number"
                 className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter NPI number"
+                type="text"
               />
             </div>
           </div>
@@ -90,8 +90,8 @@ export default function ClinicalInfo() {
             </p>
           </div>
           <button
-            onClick={() => setIsAddLicenseSidebarOpen(true)}
             className="flex items-center text-blue-600 text-sm font-medium hover:text-blue-700"
+            onClick={() => setIsAddLicenseSidebarOpen(true)}
           >
             + Add license
           </button>

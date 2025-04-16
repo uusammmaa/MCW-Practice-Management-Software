@@ -47,8 +47,8 @@ export default function AddLicenseSidebar({
                 License number
               </label>
               <input
-                type="text"
                 className="w-full border-gray-300 rounded-md shadow-sm"
+                type="text"
               />
             </div>
 
@@ -58,9 +58,9 @@ export default function AddLicenseSidebar({
               </label>
               <div className="relative">
                 <input
-                  type="text"
-                  placeholder="mm/dd/yyyy"
                   className="w-full border-gray-300 rounded-md shadow-sm pr-10"
+                  placeholder="mm/dd/yyyy"
+                  type="text"
                 />
                 <Calendar className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
               </div>
@@ -82,8 +82,8 @@ export default function AddLicenseSidebar({
         <div className="border-t p-4">
           <div className="space-y-4">
             <button
-              onClick={onClose}
               className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700"
+              onClick={onClose}
             >
               Save
             </button>
